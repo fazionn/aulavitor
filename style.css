@@ -1,0 +1,237 @@
+:root {
+    --salmao: #fca9bd;
+    --salmaoclaro: #ffcfdd;
+    --lilas: #d6b6ff;
+    --lilasclaro: #d3c9fe;
+    --cinza: #fefefe;
+    --preto: #0e0d0d;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.entregamos {
+    width: 100%;
+    background-color: var(--lilas);
+    padding: 3px 0 7px;
+}
+
+#entregamos {
+    font-size: 4vh;
+    text-align: center;
+}
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: var(--salmao);
+}
+
+.imagem {
+    max-width: 50px;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.logo img {
+    min-width: 120px;
+    margin-bottom: 20px;
+}
+
+.pesquisar {
+    background-color: var(--lilasclaro);
+    height: 30%;
+    width: 40%;
+    border-radius: 20px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+#pesquisa {
+    color: var(--preto);
+    position: absolute;
+    font-size: 3vh;
+    border: none;
+    background: url(imagens/lupinha.png) no-repeat right;
+    background-size: 20px;
+    height: 95%;
+    left: 4%;
+    top: 2%;
+    width: 90%;
+}
+
+#atendimento, #minhaconta, #carrinho {
+    width: 10%;
+    position: absolute;
+    top: 25%;
+}
+
+#carrinho:hover {
+    cursor: pointer;
+}
+
+.imgaten, .imgconta, .imgcarr {
+    width: 25%;
+    height: auto;
+    margin-left: 35%;
+}
+
+#atendimentotexto, #contatexto, #carrinhotexto {
+    text-align: center;
+    width: 100%;
+}
+
+#atendimento {
+    left: 70%;
+}
+
+#minhaconta {
+    left: 80%;
+}
+
+#carrinho {
+    left: 90%;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--lilasclaro);
+    height: 20%;
+    width: page;
+}
+
+.menuitem {
+    font-size: 3vh;
+    color: var(--preto);
+    text-decoration: none;
+    margin: 25px;
+}
+
+.menuitem:hover {
+    text-decoration: underline;
+}
+
+.caixinhaaten {
+    display: none;
+    width: 115%;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--salmaoclaro);
+}
+
+.caixinhaconta {
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--salmaoclaro);
+}
+
+.caixinhaconta a {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.caixinhaaten img {
+    max-width: 12px;
+    display: inline-block;
+}
+
+.caixinhaaten p {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.caixinhaconta p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.caixinhaconta #p2 {
+    font-size: 20px;
+}
+
+#p2 {
+    font-size: 12px;
+}
+
+#atendimento:hover .caixinhaaten {
+    display: inline-block;
+}
+
+#minhaconta:hover .caixinhaconta {
+    display: inline-block;
+}
+
+.promocao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.promocao h1 {
+    margin-bottom: 20px;
+    font-size: 6vh;
+}
+
+.img1 {
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+    width: 20%;
+    border: var(--salmaoclaro) solid 2px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.img1 img {
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 p, .img1 button {
+    display: block;
+}
+
+.info {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.preço {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.img1 button {
+    background: var(--salmao);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms;
+}
+
+.img1 button:hover {
+    transition: 500ms;
+    transform: scale(120%);
+    cursor: pointer;
+}
